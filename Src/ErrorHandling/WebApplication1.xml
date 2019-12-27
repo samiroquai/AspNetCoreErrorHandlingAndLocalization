@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.WeatherForecastController.Post_SecondErrorType(WebApplication1.DTO.City)">
+            <summary>
+            Création d'une nouvelle ville
+            </summary>
+            <remarks>Utilisez le nom de ville "namur" pour générer une erreur métier.\nSpécifiez des longueurs supérieures à 255 ou inférieures à </remarks>
+            <param name="newCity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.WeatherForecastController.Delete_FourthErrorType(WebApplication1.DTO.City)">
+            <summary>
+            Suppression d'une ville existante
+            </summary>
+            <remarks>Utilisez le nom de ville "namur" pour générer une erreur métier.</remarks>
+            <param name="cityToDelete"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
